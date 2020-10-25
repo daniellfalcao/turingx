@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="turingx_feedback_success">#38C172</color>
+    <color name="turingx_feedback_error">#E3342F</color>
+    <color name="turingx_feedback_neutral">#777777</color>
+
+</resources>

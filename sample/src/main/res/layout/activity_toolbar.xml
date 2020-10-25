@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.falcon.turingx.widget.toolbar.TXToolbar
+        android:id="@+id/TXToolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/menu_busca"
+        app:title="Disciplinas e Grupos"
+        app:tx_toolbar_titleAlignment="left" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TXToolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disciplinas e Grupos" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

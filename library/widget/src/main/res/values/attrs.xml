@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TXSearchView">
+        <attr name="tx_search_backIcon" format="reference" />
+        <attr name="tx_search_cancelIcon" format="reference" />
+        <attr name="tx_search_backIconTint" format="color" />
+        <attr name="tx_search_cancelIconTint" format="color" />
+        <attr name="tx_search_background" format="color" />
+        <attr name="tx_search_elevation" format="dimension" />
+        <attr name="tx_search_borderRadius" format="dimension" />
+        <attr name="tx_search_textAppearance" format="reference" />
+        <attr name="tx_search_menuId" format="reference"/>
+        <attr name="tx_search_hint" format="string" />
+        <attr name="tx_search_iconified" format="boolean" />
+        <attr name="tx_search_mode">
+            <enum name="animated" value="1" />
+            <enum name="fixed" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TXRoundButton">
+        <attr name="tx_button_color" format="color" />
+        <attr name="tx_button_size" format="dimension" />
+        <attr name="tx_button_src" format="reference" />
+        <attr name="tx_button_text" format="string" />
+        <attr name="tx_button_hasPadding" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TXAvatar">
+
+        <attr name="tx_button_position">
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="left" value="3" />
+            <enum name="right" value="4" />
+            <enum name="topLeft" value="5" />
+            <enum name="topRight" value="6" />
+            <enum name="bottomLeft" value="7" />
+            <enum name="bottomRight" value="8" />
+        </attr>
+
+        <attr name="tx_avatar_src" format="reference" />
+        <attr name="tx_avatar_hasBorder" format="boolean" />
+        <attr name="tx_avatar_size" format="dimension" />
+
+        <attr name="tx_avatar_button_padding" format="boolean" />
+        <attr name="tx_avatar_button_color" format="color" />
+        <attr name="tx_avatar_button_size" format="dimension" />
+        <attr name="tx_avatar_button_src" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="TXToolbar">
+
+        <attr name="tx_toolbar_titleAlignment">
+            <enum name="center" value="1" />
+            <enum name="left" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>
